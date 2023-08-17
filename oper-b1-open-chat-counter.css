@@ -1,0 +1,260 @@
+.oper-b-open-chat-counter-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.oper-b-open-chat-counter-member-accept {
+  flex: 0 0 auto;
+  width: 1300px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.oper-b-open-chat-counter-container01 {
+  flex: 0 0 auto;
+  width: 1200px;
+  height: 50px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: 20px;
+  align-items: center;
+  margin-left: -1px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--dl-color-gray-black);
+}
+.oper-b-open-chat-counter-text {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+.oper-b-open-chat-counter-container02 {
+  flex: 0 0 auto;
+  width: 1199px;
+  height: auto;
+  display: flex;
+  align-self: center;
+  margin-top: -1px;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: var(--dl-color-gray-white);
+}
+.oper-b-open-chat-counter-container03 {
+  width: 100%;
+  height: 100%;
+  display: none;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.oper-b-open-chat-counter-container04 {
+  width: 25%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-left: -1px;
+  border-color: var(--dl-color-gray-500);
+  border-width: 0.5px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.oper-b-open-chat-counter-text01 {
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+}
+.oper-b-open-chat-counter-container05 {
+  width: 25%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-left: -1px;
+  border-color: var(--dl-color-gray-500);
+  border-width: 0.5px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.oper-b-open-chat-counter-text05 {
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+}
+.oper-b-open-chat-counter-container06 {
+  width: 25%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-left: -1px;
+  border-color: var(--dl-color-gray-500);
+  border-width: 0.5px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.oper-b-open-chat-counter-text06 {
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+}
+.oper-b-open-chat-counter-container07 {
+  width: 25%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-left: -1px;
+  border-color: var(--dl-color-gray-500);
+  border-width: 0.5px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.oper-b-open-chat-counter-text07 {
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+}
+.oper-b-open-chat-counter-container08 {
+  width: 35%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-left: -1px;
+  border-color: var(--dl-color-gray-500);
+  border-width: 0.5px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.oper-b-open-chat-counter-text08 {
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+}
+.oper-b-open-chat-counter-container09 {
+  width: 25%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-left: -1px;
+  border-color: var(--dl-color-gray-500);
+  border-width: 0.5px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.oper-b-open-chat-counter-text09 {
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+}
+.oper-b-open-chat-counter-container10 {
+  width: 25%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-left: -1px;
+  border-color: var(--dl-color-gray-500);
+  border-width: 0.5px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.oper-b-open-chat-counter-text10 {
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+}
+.oper-b-open-chat-counter-container11 {
+  width: 25%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-left: -1px;
+  border-color: var(--dl-color-gray-500);
+  border-width: 0.5px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.oper-b-open-chat-counter-container12 {
+  width: 80%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #D9D9D9;
+}
+.oper-b-open-chat-counter-text11 {
+  width: 50%;
+  height: auto;
+  font-size: 12px;
+  text-align: center;
+}
+.oper-b-open-chat-counter-container13 {
+  flex: 0 0 auto;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.oper-b-open-chat-counter-text12 {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.oper-b-open-chat-counter-container14 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.oper-b-open-chat-counter-textinput {
+  color: var(--dl-color-gray-black);
+  width: 35%;
+  height: 40px;
+  font-size: 18px;
+  text-align: center;
+  border-color: var(--dl-color-secondary-400);
+  border-width: 1px;
+}
+.oper-b-open-chat-counter-container15 {
+  width: 20%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--dl-color-primary-300);
+  border-top-left-radius: 4;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 4;
+  border-bottom-right-radius: 0;
+}
+.oper-b-open-chat-counter-text13 {
+  color: var(--dl-color-gray-white);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+.oper-b-open-chat-counter-text14 {
+  margin-top: 20px;
+}

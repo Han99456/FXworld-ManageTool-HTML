@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>oper-A2-MembershipApplication - 주미클럽 : 관리툴</title>
+    <meta
+      property="og:title"
+      content="oper-A2-MembershipApplication - 주미클럽 : 관리툴"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      name="viewport"
+      content="initial-scale=1.0, user-scalable=no, maximum-scale=1, width=device-width"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="public/45644.png"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <style>
+      html * {
+          -webkit-font-smoothing: antialiased;
+      }
+      input::placeholder, textarea::placeholder {
+         color: #d2d6da;
+      }
+    </style>
+
+    <!-- input 터치해도 확대 안됨 -->
+
+    <link rel="stylesheet" href="./style.css" />
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+  </head>
+  <body>
+    <div>
+      <script
+        type="text/javascript"
+        src="https://unpkg.com/dangerous-html/dist/default/lib.umd.js"
+      ></script>
+      <link href="./oper-a2-membership-application.css" rel="stylesheet" />
+
+      <div class="oper-a-membership-application-container">
+        <div class="oper-a-membership-application-member-accept">
+          <div class="oper-a-membership-application-container01">
+            <span class="oper-a-membership-application-text">
+              회원가입 요청 목록
+            </span>
+            <div id="refresh" class="oper-a-membership-application-container02">
+              <span class="oper-a-membership-application-text01">
+                목록 갱신
+              </span>
+            </div>
+          </div>
+          <div class="oper-a-membership-application-container03">
+            <div class="oper-a-membership-application-container04">
+              <span class="oper-a-membership-application-text02">요청일자</span>
+            </div>
+            <div class="oper-a-membership-application-container05">
+              <span class="oper-a-membership-application-text03">아이디</span>
+            </div>
+            <div class="oper-a-membership-application-container06">
+              <span class="oper-a-membership-application-text04">비밀번호</span>
+            </div>
+            <div class="oper-a-membership-application-container07">
+              <span class="oper-a-membership-application-text05">닉네임</span>
+            </div>
+            <div class="oper-a-membership-application-container08">
+              <span class="oper-a-membership-application-text06">이메일</span>
+            </div>
+            <div class="oper-a-membership-application-container09">
+              <span class="oper-a-membership-application-text07">전화번호</span>
+            </div>
+            <div class="oper-a-membership-application-container10">
+              <span class="oper-a-membership-application-text08">유입URL</span>
+            </div>
+            <div class="oper-a-membership-application-container11">
+              <span class="oper-a-membership-application-text09">승인번호</span>
+            </div>
+            <div class="oper-a-membership-application-container12">
+              <span class="oper-a-membership-application-text10">승인</span>
+            </div>
+          </div>
+          <div
+            class="oper-a-membership-application-container13 table-postGetUserNotConfirmed"
+          >
+            <div class="oper-a-membership-application-container14">
+              <div class="oper-a-membership-application-container15">
+                <span class="oper-a-membership-application-text11">
+                  <span>2023.12.23</span>
+                  <br />
+                  <span>12:56:25</span>
+                </span>
+              </div>
+              <div class="oper-a-membership-application-container16">
+                <span class="oper-a-membership-application-text15">
+                  ABCDEFGHJIKL
+                </span>
+              </div>
+              <div class="oper-a-membership-application-container17">
+                <span class="oper-a-membership-application-text16">
+                  ABCDE0989
+                </span>
+              </div>
+              <div class="oper-a-membership-application-container18">
+                <span class="oper-a-membership-application-text17">
+                  나는자연인이다
+                </span>
+              </div>
+              <div class="oper-a-membership-application-container19">
+                <span class="oper-a-membership-application-text18">
+                  123@hadsjhfd.com
+                </span>
+              </div>
+              <div class="oper-a-membership-application-container20">
+                <span class="oper-a-membership-application-text19">
+                  010-1234-5678
+                </span>
+              </div>
+              <div class="oper-a-membership-application-container21">
+                <span class="oper-a-membership-application-text20">-</span>
+              </div>
+              <div class="oper-a-membership-application-container22">
+                <span class="oper-a-membership-application-text21">123456</span>
+              </div>
+              <div class="oper-a-membership-application-container23">
+                <input
+                  type="radio"
+                  name="radio"
+                  class="oper-a-membership-application-radiobutton"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="oper-a-membership-application-container24">
+            <div class="oper-a-membership-application-container25">
+              <input
+                type="text"
+                id="deleterecogid"
+                placeholder="삭제할 아이디 입력"
+                class="oper-a-membership-application-textinput input"
+              />
+              <div
+                id="deletereq"
+                class="oper-a-membership-application-container26"
+              >
+                <span>요청 거절 및 삭제</span>
+              </div>
+            </div>
+            <div
+              id="acceptreq"
+              class="oper-a-membership-application-container27"
+            >
+              <span>요청 승인</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <dangerous-html
+            html="<link rel='stylesheet' href='/css/operation.css' />
+
+<script type='text/javascript' src='/js/oper-A2-MembershipApplication.js'></script>"
+          ></dangerous-html>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

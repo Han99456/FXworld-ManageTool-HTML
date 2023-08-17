@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>oper-C1-OpenChatID - 주미클럽 : 관리툴</title>
+    <meta
+      property="og:title"
+      content="oper-C1-OpenChatID - 주미클럽 : 관리툴"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      name="viewport"
+      content="initial-scale=1.0, user-scalable=no, maximum-scale=1, width=device-width"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="public/45644.png"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <style>
+      html * {
+          -webkit-font-smoothing: antialiased;
+      }
+      input::placeholder, textarea::placeholder {
+         color: #d2d6da;
+      }
+    </style>
+
+    <!-- input 터치해도 확대 안됨 -->
+
+    <link rel="stylesheet" href="./style.css" />
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+  </head>
+  <body>
+    <div>
+      <script
+        type="text/javascript"
+        src="https://unpkg.com/dangerous-html/dist/default/lib.umd.js"
+      ></script>
+      <link href="./oper-c1-open-chat-id.css" rel="stylesheet" />
+
+      <div class="oper-c-open-chat-id-container">
+        <div class="oper-c-open-chat-id-member-accept">
+          <div class="oper-c-open-chat-id-container01">
+            <span class="oper-c-open-chat-id-text">오픈채팅 닉네임 등록</span>
+          </div>
+          <div class="oper-c-open-chat-id-container02">
+            <div class="oper-c-open-chat-id-container03">
+              <span class="oper-c-open-chat-id-text1">닉네임 기입</span>
+            </div>
+            <div class="oper-c-open-chat-id-container04">
+              <input
+                type="text"
+                id="managernick"
+                placeholder="닉네임을 작성하세요"
+                class="oper-c-open-chat-id-textinput input"
+              />
+            </div>
+          </div>
+          <div class="oper-c-open-chat-id-filter-2">
+            <div class="oper-c-open-chat-id-container05">
+              <span class="oper-c-open-chat-id-text2">등급 설정</span>
+            </div>
+            <div class="oper-c-open-chat-id-container06">
+              <span class="oper-c-open-chat-id-text3">준회원</span>
+              <input
+                type="radio"
+                id="manageusergrade1"
+                name="radio"
+                value="0"
+                checked=""
+                class="oper-c-open-chat-id-radiobutton"
+              />
+            </div>
+            <div class="oper-c-open-chat-id-container07">
+              <span class="oper-c-open-chat-id-text4">정회원</span>
+              <input
+                type="radio"
+                id="manageusergrade2"
+                name="radio"
+                value="1"
+                class="oper-c-open-chat-id-radiobutton1"
+              />
+            </div>
+            <div class="oper-c-open-chat-id-container08">
+              <span class="oper-c-open-chat-id-text5">일반 관리자</span>
+              <input
+                type="radio"
+                id="manageusergrade3"
+                name="radio"
+                value="2"
+                class="oper-c-open-chat-id-radiobutton2"
+              />
+            </div>
+          </div>
+          <div id="deletereq" class="oper-c-open-chat-id-container09">
+            <span>오픈 채팅 닉네임 등록</span>
+          </div>
+        </div>
+        <div>
+          <dangerous-html
+            html="<link rel='stylesheet' href='/css/operation.css' />
+
+<script type='text/javascript' src='/js/oper-C1-OpenChatID.js'></script>"
+          ></dangerous-html>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

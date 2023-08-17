@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>oper-E1-Coupon - 주미클럽 : 관리툴</title>
+    <meta property="og:title" content="oper-E1-Coupon - 주미클럽 : 관리툴" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      name="viewport"
+      content="initial-scale=1.0, user-scalable=no, maximum-scale=1, width=device-width"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="public/45644.png"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <style>
+      html * {
+          -webkit-font-smoothing: antialiased;
+      }
+      input::placeholder, textarea::placeholder {
+         color: #d2d6da;
+      }
+    </style>
+
+    <!-- input 터치해도 확대 안됨 -->
+
+    <link rel="stylesheet" href="./style.css" />
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+  </head>
+  <body>
+    <div>
+      <script
+        type="text/javascript"
+        src="https://unpkg.com/dangerous-html/dist/default/lib.umd.js"
+      ></script>
+      <link href="./oper-e1-coupon.css" rel="stylesheet" />
+
+      <div class="oper-e-coupon-container">
+        <div class="oper-e-coupon-member-accept">
+          <div class="oper-e-coupon-container01">
+            <span class="oper-e-coupon-text">쿠폰등록</span>
+          </div>
+          <div class="oper-e-coupon-container02 table-postGetUserTempList">
+            <div class="oper-e-coupon-container03">
+              <div class="oper-e-coupon-container04">
+                <span class="oper-e-coupon-text01">
+                  <span>2023.12.23</span>
+                  <br />
+                  <span>12:56:25</span>
+                </span>
+              </div>
+              <div class="oper-e-coupon-container05">
+                <span class="oper-e-coupon-text05">ABCDEFGHJIKL</span>
+              </div>
+              <div class="oper-e-coupon-container06">
+                <span class="oper-e-coupon-text06">ABCDE0989</span>
+              </div>
+              <div class="oper-e-coupon-container07">
+                <span class="oper-e-coupon-text07">나는자연인이다</span>
+              </div>
+              <div class="oper-e-coupon-container08">
+                <span class="oper-e-coupon-text08">123@hadsjhfd.com</span>
+              </div>
+              <div class="oper-e-coupon-container09">
+                <span class="oper-e-coupon-text09">010-1234-5678</span>
+              </div>
+              <div class="oper-e-coupon-container10">
+                <span class="oper-e-coupon-text10">-</span>
+              </div>
+              <div class="oper-e-coupon-container11">
+                <div id="deleteuser" class="oper-e-coupon-container12">
+                  <span class="oper-e-coupon-text11">삭제</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="oper-e-coupon-container13">
+          <span id="basicSetting" class="oper-e-coupon-text12">
+            <span>1. 관리자가 쿠폰을 등록해주세요.</span>
+            <br />
+            <span>
+              1-1. 유저는 홈페이지 좌상단의 개인설정 메뉴에서 쿠폰을 등록할 수
+              있습니다.
+            </span>
+            <br />
+            <br />
+            <span>2. 유저가 쿠폰을 입력해서&nbsp;</span>
+            <span>관리자가 등록한 쿠폰번호와 일치하면, 쿠폰이 등록됩니다.</span>
+            <br />
+            <span>
+              &nbsp; &nbsp; - 에러 1. 관리자가 등록하지 않은 쿠폰 입력 / 에러
+              2.&nbsp;
+            </span>
+            <span>이미 등록한 쿠폰 번호를 재입력</span>
+            <br />
+            <br />
+            <span>
+              2-2. 관리자는 관리툴에서 유저가 등록한 쿠폰의 목록을 볼 수
+              있습니다.
+            </span>
+            <br />
+          </span>
+          <div class="oper-e-coupon-container14">
+            <input
+              type="text"
+              id="usercounter"
+              placeholder="등록할 쿠폰 번호 (영문, 숫자)를 입력해주세요."
+              class="oper-e-coupon-textinput"
+            />
+            <div
+              id="counterchange"
+              class="oper-e-coupon-container15 hoverbtnblue"
+            >
+              <span class="oper-e-coupon-text27">쿠폰등록</span>
+            </div>
+          </div>
+        </div>
+        <div class="oper-e-coupon-member-accept1">
+          <div class="oper-e-coupon-container16">
+            <span class="oper-e-coupon-text28">쿠폰목록</span>
+          </div>
+          <div class="oper-e-coupon-container17 table-couponlist">
+            <div class="oper-e-coupon-container18">
+              <div class="oper-e-coupon-container19">
+                <span class="oper-e-coupon-text29">
+                  <span>2023.12.23</span>
+                  <br />
+                  <span>12:56:25</span>
+                </span>
+              </div>
+              <div class="oper-e-coupon-container20">
+                <span class="oper-e-coupon-text33">ABCDEFGHJIKL</span>
+              </div>
+              <div class="oper-e-coupon-container21">
+                <span class="oper-e-coupon-text34">ABCDE0989</span>
+              </div>
+              <div class="oper-e-coupon-container22">
+                <span class="oper-e-coupon-text35">나는자연인이다</span>
+              </div>
+              <div class="oper-e-coupon-container23">
+                <span class="oper-e-coupon-text36">123@hadsjhfd.com</span>
+              </div>
+              <div class="oper-e-coupon-container24">
+                <span class="oper-e-coupon-text37">010-1234-5678</span>
+              </div>
+              <div class="oper-e-coupon-container25">
+                <span class="oper-e-coupon-text38">-</span>
+              </div>
+              <div class="oper-e-coupon-container26">
+                <div id="deleteuser" class="oper-e-coupon-container27">
+                  <span class="oper-e-coupon-text39">삭제</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="oper-e-coupon-container28">
+            <div id="seleteCouponBtn" class="oper-e-coupon-container29">
+              <span>삭제</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <dangerous-html
+            html="<link rel='stylesheet' href='/css/operation.css' />
+
+<script type='text/javascript' src='/js/oper-E1-Coupon.js'></script>
+"
+          ></dangerous-html>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

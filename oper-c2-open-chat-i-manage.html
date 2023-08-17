@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>oper-C2-OpenChatIDManage - 주미클럽 : 관리툴</title>
+    <meta
+      property="og:title"
+      content="oper-C2-OpenChatIDManage - 주미클럽 : 관리툴"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      name="viewport"
+      content="initial-scale=1.0, user-scalable=no, maximum-scale=1, width=device-width"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="public/45644.png"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <style>
+      html * {
+          -webkit-font-smoothing: antialiased;
+      }
+      input::placeholder, textarea::placeholder {
+         color: #d2d6da;
+      }
+    </style>
+
+    <!-- input 터치해도 확대 안됨 -->
+
+    <link rel="stylesheet" href="./style.css" />
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+  </head>
+  <body>
+    <div>
+      <script
+        type="text/javascript"
+        src="https://unpkg.com/dangerous-html/dist/default/lib.umd.js"
+      ></script>
+      <link href="./oper-c2-open-chat-i-manage.css" rel="stylesheet" />
+
+      <div class="oper-c-open-chat-i-manage-container">
+        <div class="oper-c-open-chat-i-manage-member-accept">
+          <div class="oper-c-open-chat-i-manage-container01">
+            <span class="oper-c-open-chat-i-manage-text">
+              오픈채팅 닉네임 목록
+            </span>
+          </div>
+          <div
+            class="oper-c-open-chat-i-manage-container02 table-postGetAdminNick"
+          >
+            <div class="oper-c-open-chat-i-manage-container03">
+              <div class="oper-c-open-chat-i-manage-container04">
+                <span class="oper-c-open-chat-i-manage-text01">닉네임</span>
+              </div>
+              <div class="oper-c-open-chat-i-manage-container05">
+                <span class="oper-c-open-chat-i-manage-text02">
+                  ABCDEFGHJIKL
+                </span>
+              </div>
+              <div class="oper-c-open-chat-i-manage-container06">
+                <span class="oper-c-open-chat-i-manage-text03">등급</span>
+              </div>
+              <div class="oper-c-open-chat-i-manage-container07">
+                <span class="oper-c-open-chat-i-manage-text04">준회원</span>
+              </div>
+            </div>
+          </div>
+          <div class="oper-c-open-chat-i-manage-filter-2">
+            <div id="filterall" class="oper-c-open-chat-i-manage-container08">
+              <span class="oper-c-open-chat-i-manage-text05">전체</span>
+            </div>
+            <div
+              id="filterlevel0"
+              class="oper-c-open-chat-i-manage-container09"
+            >
+              <span class="oper-c-open-chat-i-manage-text06">준회원</span>
+            </div>
+            <div
+              id="filterlevel1"
+              class="oper-c-open-chat-i-manage-container10"
+            >
+              <span class="oper-c-open-chat-i-manage-text07">정회원</span>
+            </div>
+            <div
+              id="filterlevel2"
+              class="oper-c-open-chat-i-manage-container11"
+            >
+              <span class="oper-c-open-chat-i-manage-text08">일반관리자</span>
+            </div>
+          </div>
+          <div class="oper-c-open-chat-i-manage-menu">
+            <div class="oper-c-open-chat-i-manage-container12">
+              <div class="oper-c-open-chat-i-manage-numbering">
+                <div class="oper-c-open-chat-i-manage-container13">
+                  <svg
+                    viewBox="0 0 1024 1024"
+                    class="oper-c-open-chat-i-manage-icon"
+                  >
+                    <path
+                      d="M498 166l-346 346 346 346-76 76-422-422 422-422z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="oper-c-open-chat-i-manage-container14">
+                  <span class="oper-c-open-chat-i-manage-text09">1</span>
+                </div>
+                <div class="oper-c-open-chat-i-manage-container15">
+                  <span class="oper-c-open-chat-i-manage-text10">2</span>
+                </div>
+                <div class="oper-c-open-chat-i-manage-container16">
+                  <span class="oper-c-open-chat-i-manage-text11">3</span>
+                </div>
+                <div class="oper-c-open-chat-i-manage-container17">
+                  <span class="oper-c-open-chat-i-manage-text12">4</span>
+                </div>
+                <div class="oper-c-open-chat-i-manage-container18">
+                  <span class="oper-c-open-chat-i-manage-text13">5</span>
+                </div>
+                <div class="oper-c-open-chat-i-manage-container19">
+                  <svg
+                    viewBox="0 0 1024 1024"
+                    class="oper-c-open-chat-i-manage-icon2"
+                  >
+                    <path
+                      d="M250 176l92-90 426 426-426 426-92-90 338-336z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <input
+                type="text"
+                placeholder="닉네임을 입력해주세요."
+                class="oper-c-open-chat-i-manage-textinput"
+              />
+              <div class="oper-c-open-chat-i-manage-container20">
+                <span class="oper-c-open-chat-i-manage-text14">검색</span>
+              </div>
+            </div>
+          </div>
+          <div class="oper-c-open-chat-i-manage-container21">
+            <div
+              id="acceptdelnink"
+              class="oper-c-open-chat-i-manage-container22"
+            >
+              <span>선택 닉네임 삭제</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <dangerous-html
+            html="<link rel='stylesheet' href='/css/operation.css' />
+
+<script type='text/javascript' src='/js/oper-C2-OpenChatIDManage.js'></script>"
+          ></dangerous-html>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
