@@ -232,7 +232,7 @@
   color: var(--dl-color-gray-black);
   width: 35%;
   height: 40px;
-  font-size: 18px;
+  font-size: 16;
   text-align: center;
   border-color: var(--dl-color-secondary-400);
   border-width: 1px;

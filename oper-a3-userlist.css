@@ -11,6 +11,7 @@
   width: 1300px;
   height: auto;
   display: flex;
+  min-height: 800px;
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
@@ -539,7 +540,7 @@
   border-width: 0.5px;
   flex-direction: column;
   justify-content: center;
-  background-color: #b3e9ff;
+  background-color: #fff1b3;
 }
 .oper-a-userlist-container29:hover {
   background-color: var(--dl-color-primary-500);
@@ -563,7 +564,7 @@
   border-width: 0.5px;
   flex-direction: column;
   justify-content: center;
-  background-color: #b3e9ff;
+  background-color: #fff1b3;
 }
 .oper-a-userlist-container30:hover {
   background-color: var(--dl-color-primary-500);
@@ -587,7 +588,7 @@
   border-width: 0.5px;
   flex-direction: column;
   justify-content: center;
-  background-color: #b3e9ff;
+  background-color: #fff1b3;
 }
 .oper-a-userlist-container31:hover {
   background-color: var(--dl-color-primary-500);
@@ -611,7 +612,7 @@
   border-width: 0.5px;
   flex-direction: column;
   justify-content: center;
-  background-color: #b3e9ff;
+  background-color: #fff1b3;
 }
 .oper-a-userlist-container32:hover {
   background-color: var(--dl-color-primary-500);
@@ -1540,12 +1541,13 @@
 }
 .oper-a-userlist-container82 {
   flex: 0 0 auto;
-  width: 200px;
+  width: 150px;
   height: 100%;
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: center;
+  background-color: var(--dl-color-gray-700);
 }
 .oper-a-userlist-text54 {
   color: var(--dl-color-gray-black);
@@ -1565,7 +1567,7 @@
   justify-content: center;
 }
 .oper-a-userlist-text55 {
-  color: var(--dl-color-gray-500);
+  color: var(--dl-color-gray-black);
   width: 50%;
   font-size: 14px;
   font-style: normal;
@@ -1587,7 +1589,7 @@
   justify-content: center;
 }
 .oper-a-userlist-text56 {
-  color: var(--dl-color-gray-500);
+  color: var(--dl-color-gray-black);
   width: 50%;
   font-size: 14px;
   font-style: normal;
@@ -1603,13 +1605,13 @@
   flex: 0 0 auto;
   width: 200px;
   height: 100%;
-  display: flex;
+  display: none;
   align-items: center;
   flex-direction: row;
   justify-content: center;
 }
 .oper-a-userlist-text57 {
-  color: var(--dl-color-gray-500);
+  color: var(--dl-color-gray-black);
   width: 50%;
   font-size: 14px;
   font-style: normal;
@@ -1625,13 +1627,13 @@
   flex: 0 0 auto;
   width: 200px;
   height: 100%;
-  display: flex;
+  display: none;
   align-items: center;
   flex-direction: row;
   justify-content: center;
 }
 .oper-a-userlist-text58 {
-  color: var(--dl-color-gray-500);
+  color: var(--dl-color-gray-black);
   width: 50%;
   font-size: 14px;
   font-style: normal;
@@ -1644,6 +1646,50 @@
   height: 18px;
 }
 .oper-a-userlist-container87 {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 100%;
+  display: none;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.oper-a-userlist-text59 {
+  color: var(--dl-color-gray-black);
+  width: 50%;
+  font-size: 14px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+  margin-right: 10px;
+}
+.oper-a-userlist-radiobutton4 {
+  width: 18px;
+  height: 18px;
+}
+.oper-a-userlist-container88 {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 100%;
+  display: none;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.oper-a-userlist-text60 {
+  color: var(--dl-color-gray-black);
+  width: 50%;
+  font-size: 14px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+  margin-right: 10px;
+}
+.oper-a-userlist-radiobutton5 {
+  width: 18px;
+  height: 18px;
+}
+.oper-a-userlist-container89 {
   width: 1200px;
   display: flex;
   margin-top: 10px;
@@ -1651,7 +1697,7 @@
   margin-bottom: 20px;
   justify-content: center;
 }
-.oper-a-userlist-container88 {
+.oper-a-userlist-container90 {
   flex: 0 0 auto;
   width: 10%;
   height: 40px;
@@ -1662,18 +1708,18 @@
   justify-content: center;
   background-color: var(--dl-color-danger-700);
 }
-.oper-a-userlist-container88:hover {
+.oper-a-userlist-container90:hover {
   background-color: var(--dl-color-danger-500);
 }
-.oper-a-userlist-container88:active {
+.oper-a-userlist-container90:active {
   background-color: var(--dl-color-danger-300);
 }
-.oper-a-userlist-text59 {
+.oper-a-userlist-text61 {
   font-size: 13px;
   font-style: normal;
   font-weight: 700;
 }
-.oper-a-userlist-container89 {
+.oper-a-userlist-container91 {
   width: 90%;
   height: 40px;
   display: flex;
@@ -1686,7 +1732,7 @@
   border-bottom-left-radius: 4;
   border-bottom-right-radius: 0;
 }
-.oper-a-userlist-text60 {
+.oper-a-userlist-text62 {
   color: var(--dl-color-gray-white);
   font-size: 14px;
   font-style: normal;
