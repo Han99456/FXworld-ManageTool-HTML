@@ -1,4 +1,4 @@
-.oper-d-professor-container {
+.oper-d1professor-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -6,7 +6,7 @@
   align-items: center;
   flex-direction: column;
 }
-.oper-d-professor-memberinfo2 {
+.oper-d1professor-memberinfo2 {
   flex: 0 0 auto;
   width: 1300px;
   height: auto;
@@ -15,7 +15,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.oper-d-professor-container01 {
+.oper-d1professor-container01 {
   flex: 0 0 auto;
   width: 1200px;
   height: 50px;
@@ -30,14 +30,14 @@
   justify-content: center;
   background-color: var(--dl-color-gray-black);
 }
-.oper-d-professor-text {
+.oper-d1professor-text {
   color: rgb(255, 255, 255);
   width: 100%;
   font-size: 18px;
   text-align: center;
   font-weight: bold;
 }
-.oper-d-professor-container02 {
+.oper-d1professor-container02 {
   top: 10px;
   right: 20px;
   width: var(--dl-size-size-large);
@@ -52,13 +52,13 @@
   justify-content: center;
   background-color: var(--dl-color-primary-700);
 }
-.oper-d-professor-container02:hover {
+.oper-d1professor-container02:hover {
   background-color: var(--dl-color-success-500);
 }
-.oper-d-professor-container02:active {
+.oper-d1professor-container02:active {
   background-color: var(--dl-color-success-300);
 }
-.oper-d-professor-text01 {
+.oper-d1professor-text01 {
   width: 50%;
   height: auto;
   font-size: 12px;
@@ -66,7 +66,7 @@
   text-align: center;
   font-weight: 400;
 }
-.oper-d-professor-container03 {
+.oper-d1professor-container03 {
   flex: 0 0 auto;
   width: 1199px;
   height: 45px;
@@ -77,7 +77,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.oper-d-professor-container04 {
+.oper-d1professor-container04 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -89,12 +89,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-d-professor-text02 {
+.oper-d1professor-text02 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-d-professor-container05 {
+.oper-d1professor-container05 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -106,12 +106,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-d-professor-text03 {
+.oper-d1professor-text03 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-d-professor-container06 {
+.oper-d1professor-container06 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -123,12 +123,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-d-professor-text04 {
+.oper-d1professor-text04 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-d-professor-container07 {
+.oper-d1professor-container07 {
   width: 35%;
   height: 100%;
   display: flex;
@@ -140,12 +140,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-d-professor-text05 {
+.oper-d1professor-text05 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-d-professor-container08 {
+.oper-d1professor-container08 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -157,12 +157,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-d-professor-text06 {
+.oper-d1professor-text06 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-d-professor-container09 {
+.oper-d1professor-container09 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -174,12 +174,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-d-professor-text07 {
+.oper-d1professor-text07 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-d-professor-container10 {
+.oper-d1professor-container10 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -191,12 +191,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-d-professor-text08 {
+.oper-d1professor-text08 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-d-professor-container11 {
+.oper-d1professor-container11 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -208,12 +208,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-d-professor-text09 {
+.oper-d1professor-text09 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-d-professor-container12 {
+.oper-d1professor-container12 {
   flex: 0 0 auto;
   width: 1199px;
   height: auto;
@@ -225,7 +225,7 @@
   justify-content: flex-start;
   background-color: var(--dl-color-gray-white);
 }
-.oper-d-professor-container13 {
+.oper-d1professor-container13 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -237,7 +237,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-d-professor-textinput {
+.oper-d1professor-textinput {
   width: 100%;
   height: 100%;
   padding: 0px;
@@ -248,7 +248,7 @@
   padding-bottom: 0px;
   background-color: transparent;
 }
-.oper-d-professor-container14 {
+.oper-d1professor-container14 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -260,7 +260,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-d-professor-textinput1 {
+.oper-d1professor-textinput1 {
   width: 100%;
   height: 100%;
   padding: 0px;
@@ -271,7 +271,7 @@
   padding-bottom: 0px;
   background-color: transparent;
 }
-.oper-d-professor-container15 {
+.oper-d1professor-container15 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -283,7 +283,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-d-professor-textinput2 {
+.oper-d1professor-textinput2 {
   width: 100%;
   height: 100%;
   padding: 0px;
@@ -294,7 +294,7 @@
   padding-bottom: 0px;
   background-color: transparent;
 }
-.oper-d-professor-container16 {
+.oper-d1professor-container16 {
   width: 35%;
   height: 40px;
   display: flex;
@@ -306,7 +306,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-d-professor-textinput3 {
+.oper-d1professor-textinput3 {
   width: 100%;
   height: 100%;
   padding: 0px;
@@ -317,7 +317,7 @@
   padding-bottom: 0px;
   background-color: transparent;
 }
-.oper-d-professor-container17 {
+.oper-d1professor-container17 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -329,7 +329,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-d-professor-textinput4 {
+.oper-d1professor-textinput4 {
   width: 100%;
   height: 100%;
   padding: 0px;
@@ -340,7 +340,7 @@
   padding-bottom: 0px;
   background-color: transparent;
 }
-.oper-d-professor-container18 {
+.oper-d1professor-container18 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -352,7 +352,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-d-professor-textinput5 {
+.oper-d1professor-textinput5 {
   width: 100%;
   height: 100%;
   padding: 0px;
@@ -363,7 +363,7 @@
   padding-bottom: 0px;
   background-color: transparent;
 }
-.oper-d-professor-container19 {
+.oper-d1professor-container19 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -375,7 +375,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-d-professor-textinput6 {
+.oper-d1professor-textinput6 {
   width: 100%;
   height: 100%;
   padding: 0px;
@@ -386,7 +386,7 @@
   padding-bottom: 0px;
   background-color: transparent;
 }
-.oper-d-professor-container20 {
+.oper-d1professor-container20 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -398,7 +398,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-d-professor-textinput7 {
+.oper-d1professor-textinput7 {
   width: 100%;
   height: 100%;
   padding: 0px;
@@ -409,7 +409,7 @@
   padding-bottom: 0px;
   background-color: transparent;
 }
-.oper-d-professor-container21 {
+.oper-d1professor-container21 {
   width: 1200px;
   height: 40px;
   display: none;
@@ -423,7 +423,7 @@
   border-bottom-left-radius: 4;
   border-bottom-right-radius: 0;
 }
-.oper-d-professor-text10 {
+.oper-d1professor-text10 {
   color: var(--dl-color-gray-white);
   font-size: 14px;
   font-style: normal;

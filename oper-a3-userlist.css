@@ -1,4 +1,4 @@
-.oper-a-userlist-container {
+.oper-a3userlist-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -6,7 +6,7 @@
   align-items: center;
   flex-direction: column;
 }
-.oper-a-userlist-member-accept {
+.oper-a3userlist-member-accept {
   flex: 0 0 auto;
   width: 1300px;
   height: auto;
@@ -16,7 +16,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.oper-a-userlist-container01 {
+.oper-a3userlist-container01 {
   flex: 0 0 auto;
   width: 1200px;
   height: 50px;
@@ -30,14 +30,14 @@
   justify-content: center;
   background-color: var(--dl-color-gray-black);
 }
-.oper-a-userlist-text {
+.oper-a3userlist-text {
   color: rgb(255, 255, 255);
   width: 100%;
   font-size: 18px;
   text-align: center;
   font-weight: bold;
 }
-.oper-a-userlist-container02 {
+.oper-a3userlist-container02 {
   top: 10px;
   right: 20px;
   width: var(--dl-size-size-large);
@@ -52,19 +52,19 @@
   justify-content: center;
   background-color: var(--dl-color-primary-700);
 }
-.oper-a-userlist-container02:hover {
+.oper-a3userlist-container02:hover {
   background-color: var(--dl-color-primary-500);
 }
-.oper-a-userlist-container02:active {
+.oper-a3userlist-container02:active {
   background-color: var(--dl-color-primary-300);
 }
-.oper-a-userlist-text01 {
+.oper-a3userlist-text01 {
   width: 50%;
   height: auto;
   font-size: 12px;
   text-align: center;
 }
-.oper-a-userlist-container03 {
+.oper-a3userlist-container03 {
   flex: 0 0 auto;
   width: 1199px;
   height: 45px;
@@ -75,7 +75,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.oper-a-userlist-container04 {
+.oper-a3userlist-container04 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -87,12 +87,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-userlist-text02 {
+.oper-a3userlist-text02 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-userlist-container05 {
+.oper-a3userlist-container05 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -104,12 +104,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-userlist-text03 {
+.oper-a3userlist-text03 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-userlist-container06 {
+.oper-a3userlist-container06 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -121,12 +121,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-userlist-text04 {
+.oper-a3userlist-text04 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-userlist-container07 {
+.oper-a3userlist-container07 {
   width: 35%;
   height: 100%;
   display: flex;
@@ -138,12 +138,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-userlist-text05 {
+.oper-a3userlist-text05 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-userlist-container08 {
+.oper-a3userlist-container08 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -155,12 +155,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-userlist-text06 {
+.oper-a3userlist-text06 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-userlist-container09 {
+.oper-a3userlist-container09 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -172,12 +172,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-userlist-text07 {
+.oper-a3userlist-text07 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-userlist-container10 {
+.oper-a3userlist-container10 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -189,12 +189,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-userlist-text08 {
+.oper-a3userlist-text08 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-userlist-container11 {
+.oper-a3userlist-container11 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -206,12 +206,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-userlist-text09 {
+.oper-a3userlist-text09 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-userlist-container12 {
+.oper-a3userlist-container12 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -223,12 +223,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-userlist-text10 {
+.oper-a3userlist-text10 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-userlist-container13 {
+.oper-a3userlist-container13 {
   flex: 0 0 auto;
   width: 1199px;
   height: auto;
@@ -240,14 +240,14 @@
   justify-content: flex-start;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-userlist-container14 {
+.oper-a3userlist-container14 {
   width: 100%;
   display: none;
   align-items: flex-start;
   flex-direction: row;
   justify-content: flex-start;
 }
-.oper-a-userlist-container15 {
+.oper-a3userlist-container15 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -259,12 +259,12 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-userlist-text11 {
+.oper-a3userlist-text11 {
   width: 100%;
   font-size: 12px;
   text-align: center;
 }
-.oper-a-userlist-container16 {
+.oper-a3userlist-container16 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -276,12 +276,12 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-userlist-text12 {
+.oper-a3userlist-text12 {
   width: 100%;
   font-size: 12px;
   text-align: center;
 }
-.oper-a-userlist-container17 {
+.oper-a3userlist-container17 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -293,12 +293,12 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-userlist-text13 {
+.oper-a3userlist-text13 {
   width: 100%;
   font-size: 12px;
   text-align: center;
 }
-.oper-a-userlist-container18 {
+.oper-a3userlist-container18 {
   width: 35%;
   height: 40px;
   display: flex;
@@ -310,12 +310,12 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-userlist-text14 {
+.oper-a3userlist-text14 {
   width: 100%;
   font-size: 12px;
   text-align: center;
 }
-.oper-a-userlist-container19 {
+.oper-a3userlist-container19 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -327,12 +327,12 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-userlist-text15 {
+.oper-a3userlist-text15 {
   width: 100%;
   font-size: 12px;
   text-align: center;
 }
-.oper-a-userlist-container20 {
+.oper-a3userlist-container20 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -344,12 +344,12 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-userlist-text16 {
+.oper-a3userlist-text16 {
   width: 100%;
   font-size: 12px;
   text-align: center;
 }
-.oper-a-userlist-container21 {
+.oper-a3userlist-container21 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -361,12 +361,12 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-userlist-text17 {
+.oper-a3userlist-text17 {
   width: 100%;
   font-size: 12px;
   text-align: center;
 }
-.oper-a-userlist-container22 {
+.oper-a3userlist-container22 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -378,12 +378,12 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-userlist-text18 {
+.oper-a3userlist-text18 {
   width: 100%;
   font-size: 12px;
   text-align: center;
 }
-.oper-a-userlist-container23 {
+.oper-a3userlist-container23 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -395,12 +395,12 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-userlist-text19 {
+.oper-a3userlist-text19 {
   width: 100%;
   font-size: 12px;
   text-align: center;
 }
-.oper-a-userlist-filter-2 {
+.oper-a3userlist-filter-2 {
   width: 1200px;
   height: 35px;
   display: flex;
@@ -410,7 +410,7 @@
   flex-shrink: 0;
   justify-content: center;
 }
-.oper-a-userlist-container24 {
+.oper-a3userlist-container24 {
   width: var(--dl-size-size-xlarge);
   height: 100%;
   display: flex;
@@ -422,42 +422,18 @@
   justify-content: center;
   background-color: #b3e9ff;
 }
-.oper-a-userlist-container24:hover {
+.oper-a3userlist-container24:hover {
   background-color: var(--dl-color-primary-500);
 }
-.oper-a-userlist-container24:active {
+.oper-a3userlist-container24:active {
   background-color: var(--dl-color-primary-300);
 }
-.oper-a-userlist-text20 {
+.oper-a3userlist-text20 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-userlist-container25 {
-  width: var(--dl-size-size-xlarge);
-  height: 100%;
-  display: flex;
-  transition: 0.3s;
-  align-items: center;
-  margin-left: -1px;
-  border-color: var(--dl-color-gray-500);
-  border-width: 0.5px;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #b3e9ff;
-}
-.oper-a-userlist-container25:hover {
-  background-color: var(--dl-color-primary-500);
-}
-.oper-a-userlist-container25:active {
-  background-color: var(--dl-color-primary-300);
-}
-.oper-a-userlist-text21 {
-  width: 100%;
-  font-size: 13px;
-  text-align: center;
-}
-.oper-a-userlist-container26 {
+.oper-a3userlist-container25 {
   width: var(--dl-size-size-xlarge);
   height: 100%;
   display: flex;
@@ -470,18 +446,18 @@
   justify-content: center;
   background-color: #b3e9ff;
 }
-.oper-a-userlist-container26:hover {
+.oper-a3userlist-container25:hover {
   background-color: var(--dl-color-primary-500);
 }
-.oper-a-userlist-container26:active {
+.oper-a3userlist-container25:active {
   background-color: var(--dl-color-primary-300);
 }
-.oper-a-userlist-text22 {
+.oper-a3userlist-text21 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-userlist-container27 {
+.oper-a3userlist-container26 {
   width: var(--dl-size-size-xlarge);
   height: 100%;
   display: flex;
@@ -494,18 +470,18 @@
   justify-content: center;
   background-color: #b3e9ff;
 }
-.oper-a-userlist-container27:hover {
+.oper-a3userlist-container26:hover {
   background-color: var(--dl-color-primary-500);
 }
-.oper-a-userlist-container27:active {
+.oper-a3userlist-container26:active {
   background-color: var(--dl-color-primary-300);
 }
-.oper-a-userlist-text23 {
+.oper-a3userlist-text22 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-userlist-container28 {
+.oper-a3userlist-container27 {
   width: var(--dl-size-size-xlarge);
   height: 100%;
   display: flex;
@@ -518,18 +494,42 @@
   justify-content: center;
   background-color: #b3e9ff;
 }
-.oper-a-userlist-container28:hover {
+.oper-a3userlist-container27:hover {
   background-color: var(--dl-color-primary-500);
 }
-.oper-a-userlist-container28:active {
+.oper-a3userlist-container27:active {
   background-color: var(--dl-color-primary-300);
 }
-.oper-a-userlist-text24 {
+.oper-a3userlist-text23 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-userlist-container29 {
+.oper-a3userlist-container28 {
+  width: var(--dl-size-size-xlarge);
+  height: 100%;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  margin-left: -1px;
+  border-color: var(--dl-color-gray-500);
+  border-width: 0.5px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #b3e9ff;
+}
+.oper-a3userlist-container28:hover {
+  background-color: var(--dl-color-primary-500);
+}
+.oper-a3userlist-container28:active {
+  background-color: var(--dl-color-primary-300);
+}
+.oper-a3userlist-text24 {
+  width: 100%;
+  font-size: 13px;
+  text-align: center;
+}
+.oper-a3userlist-container29 {
   width: var(--dl-size-size-xlarge);
   height: 100%;
   display: flex;
@@ -542,18 +542,18 @@
   justify-content: center;
   background-color: #fff1b3;
 }
-.oper-a-userlist-container29:hover {
+.oper-a3userlist-container29:hover {
   background-color: var(--dl-color-primary-500);
 }
-.oper-a-userlist-container29:active {
+.oper-a3userlist-container29:active {
   background-color: var(--dl-color-primary-300);
 }
-.oper-a-userlist-text25 {
+.oper-a3userlist-text25 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-userlist-container30 {
+.oper-a3userlist-container30 {
   width: var(--dl-size-size-xlarge);
   height: 100%;
   display: flex;
@@ -566,18 +566,18 @@
   justify-content: center;
   background-color: #fff1b3;
 }
-.oper-a-userlist-container30:hover {
+.oper-a3userlist-container30:hover {
   background-color: var(--dl-color-primary-500);
 }
-.oper-a-userlist-container30:active {
+.oper-a3userlist-container30:active {
   background-color: var(--dl-color-primary-300);
 }
-.oper-a-userlist-text26 {
+.oper-a3userlist-text26 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-userlist-container31 {
+.oper-a3userlist-container31 {
   width: var(--dl-size-size-xlarge);
   height: 100%;
   display: flex;
@@ -590,18 +590,18 @@
   justify-content: center;
   background-color: #fff1b3;
 }
-.oper-a-userlist-container31:hover {
+.oper-a3userlist-container31:hover {
   background-color: var(--dl-color-primary-500);
 }
-.oper-a-userlist-container31:active {
+.oper-a3userlist-container31:active {
   background-color: var(--dl-color-primary-300);
 }
-.oper-a-userlist-text27 {
+.oper-a3userlist-text27 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-userlist-container32 {
+.oper-a3userlist-container32 {
   width: var(--dl-size-size-xlarge);
   height: 100%;
   display: flex;
@@ -614,18 +614,18 @@
   justify-content: center;
   background-color: #fff1b3;
 }
-.oper-a-userlist-container32:hover {
+.oper-a3userlist-container32:hover {
   background-color: var(--dl-color-primary-500);
 }
-.oper-a-userlist-container32:active {
+.oper-a3userlist-container32:active {
   background-color: var(--dl-color-primary-300);
 }
-.oper-a-userlist-text28 {
+.oper-a3userlist-text28 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-userlist-menu {
+.oper-a3userlist-menu {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -635,7 +635,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.oper-a-userlist-container33 {
+.oper-a3userlist-container33 {
   flex: 0 0 auto;
   width: 80%;
   height: 100%;
@@ -645,17 +645,17 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.oper-a-userlist-text29 {
+.oper-a3userlist-text29 {
   margin-right: 10px;
 }
-.oper-a-userlist-numbering {
+.oper-a3userlist-numbering {
   height: 40px;
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: center;
 }
-.oper-a-userlist-container34 {
+.oper-a3userlist-container34 {
   flex: 0 0 auto;
   width: 30px;
   height: 30px;
@@ -664,12 +664,12 @@
   flex-direction: row;
   justify-content: center;
 }
-.oper-a-userlist-icon {
+.oper-a3userlist-icon {
   fill: var(--dl-color-gray-700);
   width: 18px;
   height: 18px;
 }
-.oper-a-userlist-container35 {
+.oper-a3userlist-container35 {
   flex: 0 0 auto;
   width: 30px;
   height: 30px;
@@ -678,13 +678,13 @@
   flex-direction: row;
   justify-content: center;
 }
-.oper-a-userlist-text30 {
+.oper-a3userlist-text30 {
   color: var(--dl-color-gray-black);
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
 }
-.oper-a-userlist-container36 {
+.oper-a3userlist-container36 {
   flex: 0 0 auto;
   width: 30px;
   height: 30px;
@@ -693,13 +693,13 @@
   flex-direction: row;
   justify-content: center;
 }
-.oper-a-userlist-text31 {
+.oper-a3userlist-text31 {
   color: var(--dl-color-gray-700);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
 }
-.oper-a-userlist-container37 {
+.oper-a3userlist-container37 {
   flex: 0 0 auto;
   width: 30px;
   height: 30px;
@@ -708,13 +708,13 @@
   flex-direction: row;
   justify-content: center;
 }
-.oper-a-userlist-text32 {
+.oper-a3userlist-text32 {
   color: var(--dl-color-gray-700);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
 }
-.oper-a-userlist-container38 {
+.oper-a3userlist-container38 {
   flex: 0 0 auto;
   width: 30px;
   height: 30px;
@@ -723,13 +723,13 @@
   flex-direction: row;
   justify-content: center;
 }
-.oper-a-userlist-text33 {
+.oper-a3userlist-text33 {
   color: var(--dl-color-gray-700);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
 }
-.oper-a-userlist-container39 {
+.oper-a3userlist-container39 {
   flex: 0 0 auto;
   width: 30px;
   height: 30px;
@@ -738,13 +738,13 @@
   flex-direction: row;
   justify-content: center;
 }
-.oper-a-userlist-text34 {
+.oper-a3userlist-text34 {
   color: var(--dl-color-gray-700);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
 }
-.oper-a-userlist-container40 {
+.oper-a3userlist-container40 {
   flex: 0 0 auto;
   width: 30px;
   height: 30px;
@@ -753,12 +753,12 @@
   flex-direction: row;
   justify-content: center;
 }
-.oper-a-userlist-icon2 {
+.oper-a3userlist-icon2 {
   fill: var(--dl-color-gray-700);
   width: 18px;
   height: 18px;
 }
-.oper-a-userlist-textinput {
+.oper-a3userlist-textinput {
   color: var(--dl-color-gray-black);
   width: 35%;
   height: 40px;
@@ -768,7 +768,7 @@
   border-color: var(--dl-color-secondary-400);
   border-width: 1px;
 }
-.oper-a-userlist-container41 {
+.oper-a3userlist-container41 {
   width: 20%;
   height: 40px;
   display: flex;
@@ -781,13 +781,13 @@
   border-bottom-left-radius: 4;
   border-bottom-right-radius: 0;
 }
-.oper-a-userlist-text35 {
+.oper-a3userlist-text35 {
   color: var(--dl-color-gray-white);
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
 }
-.oper-a-userlist-container42 {
+.oper-a3userlist-container42 {
   top: 50%;
   left: 50%;
   width: 100%;
@@ -799,7 +799,7 @@
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.44);
 }
-.oper-a-userlist-container43 {
+.oper-a3userlist-container43 {
   top: 0px;
   left: 0px;
   right: 0px;
@@ -818,7 +818,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-userlist-container44 {
+.oper-a3userlist-container44 {
   flex: 0 0 auto;
   width: 1200px;
   height: 50px;
@@ -833,14 +833,14 @@
   justify-content: center;
   background-color: var(--dl-color-gray-black);
 }
-.oper-a-userlist-text36 {
+.oper-a3userlist-text36 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-size: 18px;
   text-align: center;
   font-weight: bold;
 }
-.oper-a-userlist-container45 {
+.oper-a3userlist-container45 {
   top: 5px;
   flex: 0 0 auto;
   right: 5px;
@@ -855,11 +855,11 @@
   justify-content: center;
   background-color: #fff700;
 }
-.oper-a-userlist-icon4 {
+.oper-a3userlist-icon4 {
   width: 24px;
   height: 24px;
 }
-.oper-a-userlist-container46 {
+.oper-a3userlist-container46 {
   flex: 0 0 auto;
   width: 1199px;
   height: 33px;
@@ -870,7 +870,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.oper-a-userlist-container47 {
+.oper-a3userlist-container47 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -882,12 +882,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-userlist-text37 {
+.oper-a3userlist-text37 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-userlist-container48 {
+.oper-a3userlist-container48 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -899,12 +899,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-userlist-text38 {
+.oper-a3userlist-text38 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-userlist-container49 {
+.oper-a3userlist-container49 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -916,12 +916,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-userlist-text39 {
+.oper-a3userlist-text39 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-userlist-container50 {
+.oper-a3userlist-container50 {
   width: 35%;
   height: 100%;
   display: flex;
@@ -933,12 +933,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-userlist-text40 {
+.oper-a3userlist-text40 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-userlist-container51 {
+.oper-a3userlist-container51 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -950,12 +950,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-userlist-text41 {
+.oper-a3userlist-text41 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-userlist-container52 {
+.oper-a3userlist-container52 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -967,12 +967,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-userlist-text42 {
+.oper-a3userlist-text42 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-userlist-container53 {
+.oper-a3userlist-container53 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -984,12 +984,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-userlist-text43 {
+.oper-a3userlist-text43 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-userlist-container54 {
+.oper-a3userlist-container54 {
   flex: 0 0 auto;
   width: 1199px;
   height: auto;
@@ -1001,14 +1001,14 @@
   justify-content: flex-start;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-userlist-container55 {
+.oper-a3userlist-container55 {
   width: 100%;
   display: flex;
   align-items: flex-start;
   flex-direction: row;
   justify-content: flex-start;
 }
-.oper-a-userlist-container56 {
+.oper-a3userlist-container56 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -1020,7 +1020,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-userlist-textinput01 {
+.oper-a3userlist-textinput01 {
   width: 100%;
   height: 100%;
   padding: 0px;
@@ -1031,7 +1031,7 @@
   padding-bottom: 0px;
   background-color: transparent;
 }
-.oper-a-userlist-container57 {
+.oper-a3userlist-container57 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -1043,7 +1043,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-userlist-textinput02 {
+.oper-a3userlist-textinput02 {
   width: 100%;
   height: 100%;
   padding: 0px;
@@ -1054,7 +1054,7 @@
   padding-bottom: 0px;
   background-color: transparent;
 }
-.oper-a-userlist-container58 {
+.oper-a3userlist-container58 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -1066,7 +1066,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-userlist-textinput03 {
+.oper-a3userlist-textinput03 {
   width: 100%;
   height: 100%;
   padding: 0px;
@@ -1077,7 +1077,7 @@
   padding-bottom: 0px;
   background-color: transparent;
 }
-.oper-a-userlist-container59 {
+.oper-a3userlist-container59 {
   width: 35%;
   height: 40px;
   display: flex;
@@ -1089,7 +1089,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-userlist-textinput04 {
+.oper-a3userlist-textinput04 {
   width: 100%;
   height: 100%;
   padding: 0px;
@@ -1100,7 +1100,7 @@
   padding-bottom: 0px;
   background-color: transparent;
 }
-.oper-a-userlist-container60 {
+.oper-a3userlist-container60 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -1112,7 +1112,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-userlist-textinput05 {
+.oper-a3userlist-textinput05 {
   width: 100%;
   height: 100%;
   padding: 0px;
@@ -1123,7 +1123,7 @@
   padding-bottom: 0px;
   background-color: transparent;
 }
-.oper-a-userlist-container61 {
+.oper-a3userlist-container61 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -1135,7 +1135,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-userlist-textinput06 {
+.oper-a3userlist-textinput06 {
   width: 100%;
   height: 100%;
   padding: 0px;
@@ -1146,7 +1146,7 @@
   padding-bottom: 0px;
   background-color: transparent;
 }
-.oper-a-userlist-container62 {
+.oper-a3userlist-container62 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -1158,7 +1158,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-userlist-textinput07 {
+.oper-a3userlist-textinput07 {
   width: 100%;
   height: 100%;
   padding: 0px;
@@ -1169,7 +1169,7 @@
   padding-bottom: 0px;
   background-color: transparent;
 }
-.oper-a-userlist-container63 {
+.oper-a3userlist-container63 {
   flex: 0 0 auto;
   width: 1199px;
   height: 33px;
@@ -1180,7 +1180,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.oper-a-userlist-container64 {
+.oper-a3userlist-container64 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -1192,12 +1192,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-userlist-text44 {
+.oper-a3userlist-text44 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-userlist-container65 {
+.oper-a3userlist-container65 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -1209,12 +1209,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-userlist-text45 {
+.oper-a3userlist-text45 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-userlist-container66 {
+.oper-a3userlist-container66 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -1226,13 +1226,13 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-userlist-text46 {
+.oper-a3userlist-text46 {
   color: var(--dl-color-gray-800);
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-userlist-container67 {
+.oper-a3userlist-container67 {
   width: 35%;
   height: 100%;
   display: flex;
@@ -1244,13 +1244,13 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-userlist-text47 {
+.oper-a3userlist-text47 {
   color: var(--dl-color-gray-800);
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-userlist-container68 {
+.oper-a3userlist-container68 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -1262,13 +1262,13 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-userlist-text48 {
+.oper-a3userlist-text48 {
   color: var(--dl-color-gray-800);
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-userlist-container69 {
+.oper-a3userlist-container69 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -1280,13 +1280,13 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-userlist-text49 {
+.oper-a3userlist-text49 {
   color: var(--dl-color-gray-800);
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-userlist-container70 {
+.oper-a3userlist-container70 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -1298,13 +1298,13 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-userlist-text50 {
+.oper-a3userlist-text50 {
   color: var(--dl-color-gray-800);
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-userlist-container71 {
+.oper-a3userlist-container71 {
   flex: 0 0 auto;
   width: 1199px;
   height: auto;
@@ -1316,14 +1316,14 @@
   justify-content: flex-start;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-userlist-container72 {
+.oper-a3userlist-container72 {
   width: 100%;
   display: flex;
   align-items: flex-start;
   flex-direction: row;
   justify-content: flex-start;
 }
-.oper-a-userlist-container73 {
+.oper-a3userlist-container73 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -1335,7 +1335,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-userlist-textinput08 {
+.oper-a3userlist-textinput08 {
   width: 100%;
   height: 100%;
   padding: 0px;
@@ -1346,7 +1346,7 @@
   padding-bottom: 0px;
   background-color: transparent;
 }
-.oper-a-userlist-container74 {
+.oper-a3userlist-container74 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -1358,7 +1358,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-userlist-textinput09 {
+.oper-a3userlist-textinput09 {
   width: 100%;
   height: 100%;
   padding: 0px;
@@ -1369,7 +1369,7 @@
   padding-bottom: 0px;
   background-color: transparent;
 }
-.oper-a-userlist-container75 {
+.oper-a3userlist-container75 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -1381,7 +1381,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-userlist-textinput10 {
+.oper-a3userlist-textinput10 {
   width: 100%;
   height: 100%;
   padding: 0px;
@@ -1392,7 +1392,7 @@
   padding-bottom: 0px;
   background-color: transparent;
 }
-.oper-a-userlist-container76 {
+.oper-a3userlist-container76 {
   width: 35%;
   height: 40px;
   display: flex;
@@ -1404,7 +1404,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-userlist-textinput11 {
+.oper-a3userlist-textinput11 {
   width: 100%;
   height: 100%;
   padding: 0px;
@@ -1415,7 +1415,7 @@
   padding-bottom: 0px;
   background-color: transparent;
 }
-.oper-a-userlist-container77 {
+.oper-a3userlist-container77 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -1427,7 +1427,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-userlist-textinput12 {
+.oper-a3userlist-textinput12 {
   width: 100%;
   height: 100%;
   padding: 0px;
@@ -1438,7 +1438,7 @@
   padding-bottom: 0px;
   background-color: transparent;
 }
-.oper-a-userlist-container78 {
+.oper-a3userlist-container78 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -1450,7 +1450,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-userlist-textinput13 {
+.oper-a3userlist-textinput13 {
   width: 100%;
   height: 100%;
   padding: 0px;
@@ -1461,7 +1461,7 @@
   padding-bottom: 0px;
   background-color: transparent;
 }
-.oper-a-userlist-container79 {
+.oper-a3userlist-container79 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -1473,7 +1473,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-userlist-textinput14 {
+.oper-a3userlist-textinput14 {
   width: 100%;
   height: 100%;
   padding: 0px;
@@ -1484,7 +1484,7 @@
   padding-bottom: 0px;
   background-color: transparent;
 }
-.oper-a-userlist-container80 {
+.oper-a3userlist-container80 {
   flex: 0 0 auto;
   width: 1200px;
   height: auto;
@@ -1496,7 +1496,7 @@
   justify-content: flex-start;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-userlist-container81 {
+.oper-a3userlist-container81 {
   width: 1200px;
   height: auto;
   display: flex;
@@ -1507,7 +1507,7 @@
   justify-content: flex-start;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-userlist-text51 {
+.oper-a3userlist-text51 {
   width: 98%;
   font-size: 20px;
   font-style: normal;
@@ -1517,7 +1517,7 @@
   margin-left: 2%;
   margin-bottom: 10px;
 }
-.oper-a-userlist-textarea {
+.oper-a3userlist-textarea {
   width: 96%;
   height: 247px;
   font-size: 16px;
@@ -1527,7 +1527,7 @@
   border-radius: 0px;
   background-color: var(--dl-color-gray-900);
 }
-.oper-a-userlist-filter-21 {
+.oper-a3userlist-filter-21 {
   width: 96%;
   height: 35px;
   display: flex;
@@ -1539,7 +1539,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-900);
 }
-.oper-a-userlist-container82 {
+.oper-a3userlist-container82 {
   flex: 0 0 auto;
   width: 150px;
   height: 100%;
@@ -1549,7 +1549,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-700);
 }
-.oper-a-userlist-text54 {
+.oper-a3userlist-text54 {
   color: var(--dl-color-gray-black);
   width: 50%;
   font-size: 14px;
@@ -1557,7 +1557,7 @@
   font-weight: bold;
   margin-right: 10px;
 }
-.oper-a-userlist-container83 {
+.oper-a3userlist-container83 {
   flex: 0 0 auto;
   width: 200px;
   height: 100%;
@@ -1566,7 +1566,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.oper-a-userlist-text55 {
+.oper-a3userlist-text55 {
   color: var(--dl-color-gray-black);
   width: 50%;
   font-size: 14px;
@@ -1575,11 +1575,11 @@
   font-weight: 400;
   margin-right: 10px;
 }
-.oper-a-userlist-radiobutton {
+.oper-a3userlist-radiobutton {
   width: 18px;
   height: 18px;
 }
-.oper-a-userlist-container84 {
+.oper-a3userlist-container84 {
   flex: 0 0 auto;
   width: 200px;
   height: 100%;
@@ -1588,7 +1588,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.oper-a-userlist-text56 {
+.oper-a3userlist-text56 {
   color: var(--dl-color-gray-black);
   width: 50%;
   font-size: 14px;
@@ -1597,11 +1597,11 @@
   font-weight: 400;
   margin-right: 10px;
 }
-.oper-a-userlist-radiobutton1 {
+.oper-a3userlist-radiobutton1 {
   width: 18px;
   height: 18px;
 }
-.oper-a-userlist-container85 {
+.oper-a3userlist-container85 {
   flex: 0 0 auto;
   width: 200px;
   height: 100%;
@@ -1610,7 +1610,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.oper-a-userlist-text57 {
+.oper-a3userlist-text57 {
   color: var(--dl-color-gray-black);
   width: 50%;
   font-size: 14px;
@@ -1619,11 +1619,11 @@
   font-weight: 400;
   margin-right: 10px;
 }
-.oper-a-userlist-radiobutton2 {
+.oper-a3userlist-radiobutton2 {
   width: 18px;
   height: 18px;
 }
-.oper-a-userlist-container86 {
+.oper-a3userlist-container86 {
   flex: 0 0 auto;
   width: 200px;
   height: 100%;
@@ -1632,7 +1632,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.oper-a-userlist-text58 {
+.oper-a3userlist-text58 {
   color: var(--dl-color-gray-black);
   width: 50%;
   font-size: 14px;
@@ -1641,11 +1641,11 @@
   font-weight: 400;
   margin-right: 10px;
 }
-.oper-a-userlist-radiobutton3 {
+.oper-a3userlist-radiobutton3 {
   width: 18px;
   height: 18px;
 }
-.oper-a-userlist-container87 {
+.oper-a3userlist-container87 {
   flex: 0 0 auto;
   width: 200px;
   height: 100%;
@@ -1654,7 +1654,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.oper-a-userlist-text59 {
+.oper-a3userlist-text59 {
   color: var(--dl-color-gray-black);
   width: 50%;
   font-size: 14px;
@@ -1663,11 +1663,11 @@
   font-weight: 400;
   margin-right: 10px;
 }
-.oper-a-userlist-radiobutton4 {
+.oper-a3userlist-radiobutton4 {
   width: 18px;
   height: 18px;
 }
-.oper-a-userlist-container88 {
+.oper-a3userlist-container88 {
   flex: 0 0 auto;
   width: 200px;
   height: 100%;
@@ -1676,7 +1676,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.oper-a-userlist-text60 {
+.oper-a3userlist-text60 {
   color: var(--dl-color-gray-black);
   width: 50%;
   font-size: 14px;
@@ -1685,11 +1685,11 @@
   font-weight: 400;
   margin-right: 10px;
 }
-.oper-a-userlist-radiobutton5 {
+.oper-a3userlist-radiobutton5 {
   width: 18px;
   height: 18px;
 }
-.oper-a-userlist-container89 {
+.oper-a3userlist-container89 {
   width: 1200px;
   display: flex;
   margin-top: 10px;
@@ -1697,7 +1697,7 @@
   margin-bottom: 20px;
   justify-content: center;
 }
-.oper-a-userlist-container90 {
+.oper-a3userlist-container90 {
   flex: 0 0 auto;
   width: 10%;
   height: 40px;
@@ -1708,18 +1708,18 @@
   justify-content: center;
   background-color: var(--dl-color-danger-700);
 }
-.oper-a-userlist-container90:hover {
+.oper-a3userlist-container90:hover {
   background-color: var(--dl-color-danger-500);
 }
-.oper-a-userlist-container90:active {
+.oper-a3userlist-container90:active {
   background-color: var(--dl-color-danger-300);
 }
-.oper-a-userlist-text61 {
+.oper-a3userlist-text61 {
   font-size: 13px;
   font-style: normal;
   font-weight: 700;
 }
-.oper-a-userlist-container91 {
+.oper-a3userlist-container91 {
   width: 90%;
   height: 40px;
   display: flex;
@@ -1732,7 +1732,7 @@
   border-bottom-left-radius: 4;
   border-bottom-right-radius: 0;
 }
-.oper-a-userlist-text62 {
+.oper-a3userlist-text62 {
   color: var(--dl-color-gray-white);
   font-size: 14px;
   font-style: normal;

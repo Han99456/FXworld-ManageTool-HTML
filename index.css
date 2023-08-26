@@ -517,6 +517,7 @@
   width: 1305px;
   height: 1200px;
   display: none;
+  min-height: 800px;
 }
 .home-open-chat {
   flex: 0 0 auto;

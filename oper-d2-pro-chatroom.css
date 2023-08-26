@@ -1,4 +1,4 @@
-.oper-d-pro-chatroom-container {
+.oper-d2pro-chatroom-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -6,7 +6,7 @@
   align-items: center;
   flex-direction: column;
 }
-.oper-d-pro-chatroom-member-accept {
+.oper-d2pro-chatroom-member-accept {
   flex: 0 0 auto;
   width: 1300px;
   height: auto;
@@ -15,7 +15,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.oper-d-pro-chatroom-container01 {
+.oper-d2pro-chatroom-container01 {
   flex: 0 0 auto;
   width: 1200px;
   height: 50px;
@@ -30,14 +30,14 @@
   justify-content: center;
   background-color: var(--dl-color-gray-black);
 }
-.oper-d-pro-chatroom-text {
+.oper-d2pro-chatroom-text {
   color: rgb(255, 255, 255);
   width: 100%;
   font-size: 18px;
   text-align: center;
   font-weight: bold;
 }
-.oper-d-pro-chatroom-container02 {
+.oper-d2pro-chatroom-container02 {
   top: 10px;
   left: 10px;
   width: var(--dl-size-size-large);
@@ -52,19 +52,19 @@
   justify-content: center;
   background-color: #fff443;
 }
-.oper-d-pro-chatroom-container02:hover {
+.oper-d2pro-chatroom-container02:hover {
   background-color: #ffac43;
 }
-.oper-d-pro-chatroom-container02:active {
+.oper-d2pro-chatroom-container02:active {
   background-color: #cb792c;
 }
-.oper-d-pro-chatroom-text01 {
+.oper-d2pro-chatroom-text01 {
   width: 50%;
   height: auto;
   font-size: 12px;
   text-align: center;
 }
-.oper-d-pro-chatroom-container03 {
+.oper-d2pro-chatroom-container03 {
   top: 10px;
   left: 157px;
   width: var(--dl-size-size-large);
@@ -79,19 +79,19 @@
   justify-content: center;
   background-color: var(--dl-color-primary-700);
 }
-.oper-d-pro-chatroom-container03:hover {
+.oper-d2pro-chatroom-container03:hover {
   background-color: var(--dl-color-primary-500);
 }
-.oper-d-pro-chatroom-container03:active {
+.oper-d2pro-chatroom-container03:active {
   background-color: var(--dl-color-primary-300);
 }
-.oper-d-pro-chatroom-text02 {
+.oper-d2pro-chatroom-text02 {
   width: 50%;
   height: auto;
   font-size: 12px;
   text-align: center;
 }
-.oper-d-pro-chatroom-intive-start {
+.oper-d2pro-chatroom-intive-start {
   width: 1200px;
   display: flex;
   align-items: center;
@@ -99,7 +99,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.oper-d-pro-chatroom-text03 {
+.oper-d2pro-chatroom-text03 {
   color: rgb(0, 0, 0);
   width: 30%;
   font-size: 20px;
@@ -108,7 +108,7 @@
   font-weight: 700;
   margin-right: 30px;
 }
-.oper-d-pro-chatroom-textinput {
+.oper-d2pro-chatroom-textinput {
   color: var(--dl-color-gray-black);
   width: 35%;
   height: 40px;
@@ -117,7 +117,7 @@
   border-color: var(--dl-color-secondary-400);
   border-width: 1px;
 }
-.oper-d-pro-chatroom-container04 {
+.oper-d2pro-chatroom-container04 {
   width: 15%;
   height: 40px;
   display: flex;
@@ -130,13 +130,13 @@
   border-bottom-left-radius: 4;
   border-bottom-right-radius: 0;
 }
-.oper-d-pro-chatroom-text04 {
+.oper-d2pro-chatroom-text04 {
   color: var(--dl-color-gray-white);
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
 }
-.oper-d-pro-chatroom-chatrooms {
+.oper-d2pro-chatroom-chatrooms {
   width: 1200px;
   display: flex;
   flex-wrap: wrap;
@@ -144,7 +144,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.oper-d-pro-chatroom-chatroom {
+.oper-d2pro-chatroom-chatroom {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -154,7 +154,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.oper-d-pro-chatroom-container05 {
+.oper-d2pro-chatroom-container05 {
   flex: 0 0 auto;
   width: 396px;
   height: auto;
@@ -171,7 +171,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.oper-d-pro-chatroom-container06 {
+.oper-d2pro-chatroom-container06 {
   flex: 0 0 auto;
   width: 100%;
   height: 45px;
@@ -180,7 +180,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.oper-d-pro-chatroom-text05 {
+.oper-d2pro-chatroom-text05 {
   font-size: 13px;
   font-style: normal;
   margin-top: 3px;
@@ -189,7 +189,7 @@
   margin-right: 3px;
   margin-bottom: 3px;
 }
-.oper-d-pro-chatroom-text10 {
+.oper-d2pro-chatroom-text10 {
   font-size: 12px;
   font-style: normal;
   margin-top: 3px;
@@ -198,7 +198,7 @@
   margin-right: 3px;
   margin-bottom: 3px;
 }
-.oper-d-pro-chatroom-container07 {
+.oper-d2pro-chatroom-container07 {
   flex: 0 0 auto;
   width: 100%;
   height: 300px;
@@ -206,7 +206,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.oper-d-pro-chatroom-container08 {
+.oper-d2pro-chatroom-container08 {
   width: 99%;
   height: 45px;
   display: flex;
@@ -219,7 +219,7 @@
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-.oper-d-pro-chatroom-container09 {
+.oper-d2pro-chatroom-container09 {
   width: 34px;
   height: 34px;
   display: flex;
@@ -231,13 +231,13 @@
   justify-content: center;
   background-color: #2656b5;
 }
-.oper-d-pro-chatroom-icon {
+.oper-d2pro-chatroom-icon {
   fill: var(--dl-color-gray-white);
   width: 24px;
   height: 24px;
   margin-bottom: 2px;
 }
-.oper-d-pro-chatroom-textinput1 {
+.oper-d2pro-chatroom-textinput1 {
   color: var(--dl-color-gray-black);
   width: 75%;
   height: 35px;
@@ -250,7 +250,7 @@
   padding-bottom: 2px;
   background-color: var(--dl-color-gray-800);
 }
-.oper-d-pro-chatroom-container10 {
+.oper-d2pro-chatroom-container10 {
   width: 40px;
   height: 100%;
   display: flex;
@@ -261,12 +261,12 @@
   flex-direction: row;
   justify-content: center;
 }
-.oper-d-pro-chatroom-icon2 {
+.oper-d2pro-chatroom-icon2 {
   fill: #2656b5;
   width: 36px;
   height: 36px;
 }
-.oper-d-pro-chatroom-container11 {
+.oper-d2pro-chatroom-container11 {
   top: 0px;
   flex: 0 0 auto;
   left: 0px;
@@ -282,13 +282,13 @@
   justify-content: center;
   background-color: var(--dl-color-danger-700);
 }
-.oper-d-pro-chatroom-text14 {
+.oper-d2pro-chatroom-text14 {
   color: var(--dl-color-gray-white);
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
 }
-.oper-d-pro-chatroom-container12 {
+.oper-d2pro-chatroom-container12 {
   top: 2px;
   flex: 0 0 auto;
   right: 2px;
@@ -305,13 +305,13 @@
   justify-content: center;
   background-color: var(--dl-color-gray-800);
 }
-.oper-d-pro-chatroom-container12:hover {
+.oper-d2pro-chatroom-container12:hover {
   background-color: var(--dl-color-danger-700);
 }
-.oper-d-pro-chatroom-container12:active {
+.oper-d2pro-chatroom-container12:active {
   background-color: var(--dl-color-danger-500);
 }
-.oper-d-pro-chatroom-icon4 {
+.oper-d2pro-chatroom-icon4 {
   width: 24px;
   height: 24px;
 }

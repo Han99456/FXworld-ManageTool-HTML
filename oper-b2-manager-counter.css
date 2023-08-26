@@ -1,4 +1,4 @@
-.oper-b-manager-counter-container {
+.oper-b2manager-counter-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -6,7 +6,7 @@
   align-items: center;
   flex-direction: column;
 }
-.oper-b-manager-counter-member-accept {
+.oper-b2manager-counter-member-accept {
   flex: 0 0 auto;
   width: 1300px;
   height: auto;
@@ -15,7 +15,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.oper-b-manager-counter-container01 {
+.oper-b2manager-counter-container01 {
   flex: 0 0 auto;
   width: 1200px;
   height: 50px;
@@ -29,14 +29,14 @@
   justify-content: center;
   background-color: var(--dl-color-gray-black);
 }
-.oper-b-manager-counter-text {
+.oper-b2manager-counter-text {
   color: rgb(255, 255, 255);
   width: 100%;
   font-size: 18px;
   text-align: center;
   font-weight: bold;
 }
-.oper-b-manager-counter-container02 {
+.oper-b2manager-counter-container02 {
   flex: 0 0 auto;
   width: 1199px;
   height: 45px;
@@ -47,7 +47,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.oper-b-manager-counter-container03 {
+.oper-b2manager-counter-container03 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -59,12 +59,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-b-manager-counter-text01 {
+.oper-b2manager-counter-text01 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-b-manager-counter-container04 {
+.oper-b2manager-counter-container04 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -76,12 +76,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-b-manager-counter-text02 {
+.oper-b2manager-counter-text02 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-b-manager-counter-container05 {
+.oper-b2manager-counter-container05 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -93,12 +93,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-b-manager-counter-text03 {
+.oper-b2manager-counter-text03 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-b-manager-counter-container06 {
+.oper-b2manager-counter-container06 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -110,12 +110,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-b-manager-counter-text04 {
+.oper-b2manager-counter-text04 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-b-manager-counter-container07 {
+.oper-b2manager-counter-container07 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -127,12 +127,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-b-manager-counter-text05 {
+.oper-b2manager-counter-text05 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-b-manager-counter-container08 {
+.oper-b2manager-counter-container08 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -144,12 +144,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-b-manager-counter-text06 {
+.oper-b2manager-counter-text06 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-b-manager-counter-container09 {
+.oper-b2manager-counter-container09 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -161,12 +161,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-b-manager-counter-text07 {
+.oper-b2manager-counter-text07 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-b-manager-counter-container10 {
+.oper-b2manager-counter-container10 {
   flex: 0 0 auto;
   width: 1199px;
   height: auto;
@@ -178,7 +178,7 @@
   justify-content: flex-start;
   background-color: var(--dl-color-gray-white);
 }
-.oper-b-manager-counter-container11 {
+.oper-b2manager-counter-container11 {
   flex: 0 0 auto;
   width: 1199px;
   height: 45px;
@@ -189,7 +189,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.oper-b-manager-counter-container12 {
+.oper-b2manager-counter-container12 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -201,12 +201,12 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-b-manager-counter-text08 {
+.oper-b2manager-counter-text08 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-b-manager-counter-container13 {
+.oper-b2manager-counter-container13 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -218,12 +218,12 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-b-manager-counter-text09 {
+.oper-b2manager-counter-text09 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-b-manager-counter-container14 {
+.oper-b2manager-counter-container14 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -235,12 +235,12 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-b-manager-counter-text10 {
+.oper-b2manager-counter-text10 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-b-manager-counter-container15 {
+.oper-b2manager-counter-container15 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -252,12 +252,12 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-b-manager-counter-text11 {
+.oper-b2manager-counter-text11 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-b-manager-counter-container16 {
+.oper-b2manager-counter-container16 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -269,12 +269,12 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-b-manager-counter-text12 {
+.oper-b2manager-counter-text12 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-b-manager-counter-container17 {
+.oper-b2manager-counter-container17 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -286,12 +286,12 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-b-manager-counter-text13 {
+.oper-b2manager-counter-text13 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-b-manager-counter-container18 {
+.oper-b2manager-counter-container18 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -303,7 +303,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-b-manager-counter-text14 {
+.oper-b2manager-counter-text14 {
   width: 100%;
   font-size: 13px;
   text-align: center;

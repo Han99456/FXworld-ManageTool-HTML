@@ -1,4 +1,4 @@
-.oper-a-mobile-check-container {
+.oper-a1mobile-check-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -6,7 +6,7 @@
   align-items: center;
   flex-direction: column;
 }
-.oper-a-mobile-check-member-accept {
+.oper-a1mobile-check-member-accept {
   flex: 0 0 auto;
   width: 1300px;
   height: auto;
@@ -15,7 +15,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.oper-a-mobile-check-container01 {
+.oper-a1mobile-check-container01 {
   flex: 0 0 auto;
   width: 1200px;
   height: 50px;
@@ -29,14 +29,14 @@
   justify-content: center;
   background-color: var(--dl-color-gray-black);
 }
-.oper-a-mobile-check-text {
+.oper-a1mobile-check-text {
   color: rgb(255, 255, 255);
   width: 100%;
   font-size: 18px;
   text-align: center;
   font-weight: bold;
 }
-.oper-a-mobile-check-container02 {
+.oper-a1mobile-check-container02 {
   top: 10px;
   right: 20px;
   width: var(--dl-size-size-large);
@@ -50,19 +50,19 @@
   justify-content: center;
   background-color: var(--dl-color-primary-700);
 }
-.oper-a-mobile-check-container02:hover {
+.oper-a1mobile-check-container02:hover {
   background-color: var(--dl-color-primary-500);
 }
-.oper-a-mobile-check-container02:active {
+.oper-a1mobile-check-container02:active {
   background-color: var(--dl-color-primary-300);
 }
-.oper-a-mobile-check-text01 {
+.oper-a1mobile-check-text01 {
   width: 50%;
   height: auto;
   font-size: 12px;
   text-align: center;
 }
-.oper-a-mobile-check-container03 {
+.oper-a1mobile-check-container03 {
   flex: 0 0 auto;
   width: 1199px;
   height: 45px;
@@ -73,7 +73,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.oper-a-mobile-check-container04 {
+.oper-a1mobile-check-container04 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -85,12 +85,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-mobile-check-text02 {
+.oper-a1mobile-check-text02 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-mobile-check-container05 {
+.oper-a1mobile-check-container05 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -102,12 +102,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-mobile-check-text03 {
+.oper-a1mobile-check-text03 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-mobile-check-container06 {
+.oper-a1mobile-check-container06 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -119,12 +119,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-mobile-check-text04 {
+.oper-a1mobile-check-text04 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-mobile-check-container07 {
+.oper-a1mobile-check-container07 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -136,12 +136,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-mobile-check-text05 {
+.oper-a1mobile-check-text05 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-mobile-check-container08 {
+.oper-a1mobile-check-container08 {
   width: 35%;
   height: 100%;
   display: flex;
@@ -153,12 +153,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-mobile-check-text06 {
+.oper-a1mobile-check-text06 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-mobile-check-container09 {
+.oper-a1mobile-check-container09 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -170,12 +170,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-mobile-check-text07 {
+.oper-a1mobile-check-text07 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-mobile-check-container10 {
+.oper-a1mobile-check-container10 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -187,12 +187,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-mobile-check-text08 {
+.oper-a1mobile-check-text08 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-mobile-check-container11 {
+.oper-a1mobile-check-container11 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -204,12 +204,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-mobile-check-text09 {
+.oper-a1mobile-check-text09 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-mobile-check-container12 {
+.oper-a1mobile-check-container12 {
   flex: 0 0 auto;
   width: 1199px;
   height: auto;
@@ -221,7 +221,7 @@
   justify-content: flex-start;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-mobile-check-container13 {
+.oper-a1mobile-check-container13 {
   width: 100%;
   height: 100%;
   display: none;
@@ -229,7 +229,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.oper-a-mobile-check-container14 {
+.oper-a1mobile-check-container14 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -241,12 +241,12 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-mobile-check-text10 {
+.oper-a1mobile-check-text10 {
   width: 100%;
   font-size: 12px;
   text-align: center;
 }
-.oper-a-mobile-check-container15 {
+.oper-a1mobile-check-container15 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -258,12 +258,12 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-mobile-check-text14 {
+.oper-a1mobile-check-text14 {
   width: 100%;
   font-size: 12px;
   text-align: center;
 }
-.oper-a-mobile-check-container16 {
+.oper-a1mobile-check-container16 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -275,12 +275,12 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-mobile-check-text15 {
+.oper-a1mobile-check-text15 {
   width: 100%;
   font-size: 12px;
   text-align: center;
 }
-.oper-a-mobile-check-container17 {
+.oper-a1mobile-check-container17 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -292,12 +292,12 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-mobile-check-text16 {
+.oper-a1mobile-check-text16 {
   width: 100%;
   font-size: 12px;
   text-align: center;
 }
-.oper-a-mobile-check-container18 {
+.oper-a1mobile-check-container18 {
   width: 35%;
   height: 40px;
   display: flex;
@@ -309,12 +309,12 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-mobile-check-text17 {
+.oper-a1mobile-check-text17 {
   width: 100%;
   font-size: 12px;
   text-align: center;
 }
-.oper-a-mobile-check-container19 {
+.oper-a1mobile-check-container19 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -326,12 +326,12 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-mobile-check-text18 {
+.oper-a1mobile-check-text18 {
   width: 100%;
   font-size: 12px;
   text-align: center;
 }
-.oper-a-mobile-check-container20 {
+.oper-a1mobile-check-container20 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -343,12 +343,12 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-mobile-check-text19 {
+.oper-a1mobile-check-text19 {
   width: 100%;
   font-size: 12px;
   text-align: center;
 }
-.oper-a-mobile-check-container21 {
+.oper-a1mobile-check-container21 {
   width: 25%;
   height: 40px;
   display: flex;
@@ -360,11 +360,11 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-mobile-check-radiobutton {
+.oper-a1mobile-check-radiobutton {
   width: 25px;
   height: 25px;
 }
-.oper-a-mobile-check-container22 {
+.oper-a1mobile-check-container22 {
   flex: 0 0 auto;
   width: 1200px;
   height: auto;
@@ -374,7 +374,7 @@
   margin-bottom: 10px;
   flex-direction: column;
 }
-.oper-a-mobile-check-container23 {
+.oper-a1mobile-check-container23 {
   flex: 0 0 auto;
   width: 200px;
   height: 40px;
@@ -389,9 +389,9 @@
   justify-content: center;
   background-color: var(--dl-color-primary-700);
 }
-.oper-a-mobile-check-container23:hover {
+.oper-a1mobile-check-container23:hover {
   background-color: var(--dl-color-primary-500);
 }
-.oper-a-mobile-check-container23:active {
+.oper-a1mobile-check-container23:active {
   background-color: var(--dl-color-primary-300);
 }

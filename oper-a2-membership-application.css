@@ -1,4 +1,4 @@
-.oper-a-membership-application-container {
+.oper-a2membership-application-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -6,7 +6,7 @@
   align-items: center;
   flex-direction: column;
 }
-.oper-a-membership-application-member-accept {
+.oper-a2membership-application-member-accept {
   flex: 0 0 auto;
   width: 1300px;
   height: auto;
@@ -15,7 +15,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.oper-a-membership-application-container01 {
+.oper-a2membership-application-container01 {
   flex: 0 0 auto;
   width: 1200px;
   height: 50px;
@@ -29,14 +29,14 @@
   justify-content: center;
   background-color: var(--dl-color-gray-black);
 }
-.oper-a-membership-application-text {
+.oper-a2membership-application-text {
   color: rgb(255, 255, 255);
   width: 100%;
   font-size: 18px;
   text-align: center;
   font-weight: bold;
 }
-.oper-a-membership-application-container02 {
+.oper-a2membership-application-container02 {
   top: 10px;
   right: 20px;
   width: var(--dl-size-size-large);
@@ -50,19 +50,19 @@
   justify-content: center;
   background-color: var(--dl-color-primary-700);
 }
-.oper-a-membership-application-container02:hover {
+.oper-a2membership-application-container02:hover {
   background-color: var(--dl-color-primary-500);
 }
-.oper-a-membership-application-container02:active {
+.oper-a2membership-application-container02:active {
   background-color: var(--dl-color-primary-300);
 }
-.oper-a-membership-application-text01 {
+.oper-a2membership-application-text01 {
   width: 50%;
   height: auto;
   font-size: 12px;
   text-align: center;
 }
-.oper-a-membership-application-container03 {
+.oper-a2membership-application-container03 {
   flex: 0 0 auto;
   width: 1199px;
   height: 45px;
@@ -73,7 +73,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.oper-a-membership-application-container04 {
+.oper-a2membership-application-container04 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -85,12 +85,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-membership-application-text02 {
+.oper-a2membership-application-text02 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-membership-application-container05 {
+.oper-a2membership-application-container05 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -102,12 +102,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-membership-application-text03 {
+.oper-a2membership-application-text03 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-membership-application-container06 {
+.oper-a2membership-application-container06 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -119,12 +119,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-membership-application-text04 {
+.oper-a2membership-application-text04 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-membership-application-container07 {
+.oper-a2membership-application-container07 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -136,12 +136,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-membership-application-text05 {
+.oper-a2membership-application-text05 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-membership-application-container08 {
+.oper-a2membership-application-container08 {
   width: 35%;
   height: 100%;
   display: flex;
@@ -153,12 +153,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-membership-application-text06 {
+.oper-a2membership-application-text06 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-membership-application-container09 {
+.oper-a2membership-application-container09 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -170,12 +170,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-membership-application-text07 {
+.oper-a2membership-application-text07 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-membership-application-container10 {
+.oper-a2membership-application-container10 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -187,12 +187,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-membership-application-text08 {
+.oper-a2membership-application-text08 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-membership-application-container11 {
+.oper-a2membership-application-container11 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -204,12 +204,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-membership-application-text09 {
+.oper-a2membership-application-text09 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-membership-application-container12 {
+.oper-a2membership-application-container12 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -221,12 +221,12 @@
   justify-content: center;
   background-color: #D9D9D9;
 }
-.oper-a-membership-application-text10 {
+.oper-a2membership-application-text10 {
   width: 100%;
   font-size: 13px;
   text-align: center;
 }
-.oper-a-membership-application-container13 {
+.oper-a2membership-application-container13 {
   flex: 0 0 auto;
   width: 1199px;
   height: auto;
@@ -238,7 +238,7 @@
   justify-content: flex-start;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-membership-application-container14 {
+.oper-a2membership-application-container14 {
   flex: 0 0 auto;
   width: 100%;
   height: 40px;
@@ -247,7 +247,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.oper-a-membership-application-container15 {
+.oper-a2membership-application-container15 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -259,12 +259,12 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-membership-application-text11 {
+.oper-a2membership-application-text11 {
   width: 100%;
   font-size: 12px;
   text-align: center;
 }
-.oper-a-membership-application-container16 {
+.oper-a2membership-application-container16 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -276,12 +276,12 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-membership-application-text15 {
+.oper-a2membership-application-text15 {
   width: 100%;
   font-size: 12px;
   text-align: center;
 }
-.oper-a-membership-application-container17 {
+.oper-a2membership-application-container17 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -293,12 +293,12 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-membership-application-text16 {
+.oper-a2membership-application-text16 {
   width: 100%;
   font-size: 12px;
   text-align: center;
 }
-.oper-a-membership-application-container18 {
+.oper-a2membership-application-container18 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -310,12 +310,12 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-membership-application-text17 {
+.oper-a2membership-application-text17 {
   width: 100%;
   font-size: 12px;
   text-align: center;
 }
-.oper-a-membership-application-container19 {
+.oper-a2membership-application-container19 {
   width: 35%;
   height: 100%;
   display: flex;
@@ -327,12 +327,12 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-membership-application-text18 {
+.oper-a2membership-application-text18 {
   width: 100%;
   font-size: 12px;
   text-align: center;
 }
-.oper-a-membership-application-container20 {
+.oper-a2membership-application-container20 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -344,12 +344,12 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-membership-application-text19 {
+.oper-a2membership-application-text19 {
   width: 100%;
   font-size: 12px;
   text-align: center;
 }
-.oper-a-membership-application-container21 {
+.oper-a2membership-application-container21 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -361,12 +361,12 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-membership-application-text20 {
+.oper-a2membership-application-text20 {
   width: 100%;
   font-size: 12px;
   text-align: center;
 }
-.oper-a-membership-application-container22 {
+.oper-a2membership-application-container22 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -378,12 +378,12 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-membership-application-text21 {
+.oper-a2membership-application-text21 {
   width: 100%;
   font-size: 12px;
   text-align: center;
 }
-.oper-a-membership-application-container23 {
+.oper-a2membership-application-container23 {
   width: 25%;
   height: 100%;
   display: flex;
@@ -395,11 +395,11 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.oper-a-membership-application-radiobutton {
+.oper-a2membership-application-radiobutton {
   width: 25px;
   height: 25px;
 }
-.oper-a-membership-application-container24 {
+.oper-a2membership-application-container24 {
   flex: 0 0 auto;
   width: 1200px;
   height: auto;
@@ -410,14 +410,14 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.oper-a-membership-application-container25 {
+.oper-a2membership-application-container25 {
   width: 100%;
   display: flex;
   align-items: flex-start;
   flex-direction: row;
   justify-content: flex-start;
 }
-.oper-a-membership-application-textinput {
+.oper-a2membership-application-textinput {
   width: var(--dl-size-size-xxlarge);
   height: 40px;
   padding: 0px;
@@ -428,7 +428,7 @@
   padding-bottom: 0px;
   background-color: transparent;
 }
-.oper-a-membership-application-container26 {
+.oper-a2membership-application-container26 {
   flex: 0 0 auto;
   width: 200px;
   height: 40px;
@@ -443,13 +443,13 @@
   justify-content: center;
   background-color: var(--dl-color-success-700);
 }
-.oper-a-membership-application-container26:hover {
+.oper-a2membership-application-container26:hover {
   background-color: var(--dl-color-success-500);
 }
-.oper-a-membership-application-container26:active {
+.oper-a2membership-application-container26:active {
   background-color: var(--dl-color-success-300);
 }
-.oper-a-membership-application-container27 {
+.oper-a2membership-application-container27 {
   flex: 0 0 auto;
   width: 200px;
   height: 40px;
@@ -465,9 +465,9 @@
   justify-content: center;
   background-color: var(--dl-color-primary-700);
 }
-.oper-a-membership-application-container27:hover {
+.oper-a2membership-application-container27:hover {
   background-color: var(--dl-color-primary-500);
 }
-.oper-a-membership-application-container27:active {
+.oper-a2membership-application-container27:active {
   background-color: var(--dl-color-primary-300);
 }
